@@ -3113,28 +3113,6 @@
                  "y":952.91666666667
                 }, 
                 {
-                 "height":32,
-                 "id":7,
-                 "name":"exit",
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":".\/matrix-hub.tmj#labToMatrix"
-                        }, 
-                        {
-                         "name":"\u2139\ufe0f",
-                         "type":"string",
-                         "value":"this one is a exit defined by an area-Object"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":96.5,
-                 "x":1526.75,
-                 "y":820
-                }, 
-                {
                  "height":146.333333333333,
                  "id":9,
                  "name":"mumblecore_1",
@@ -3261,7 +3239,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/matrix-hub.tmj"
+                         "value":".\/hub"
                         }, 
                         {
                          "name":"\u2139\ufe0f",
@@ -4150,7 +4128,7 @@
          "value":"src\/final-notlog-main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.2",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
