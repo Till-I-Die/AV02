@@ -19,7 +19,7 @@ WA.onInit().then(async () => {
         console.error(e);
     }});
     WA.onInit().then(() => {
-        WA.room.area.onLeave("toMatrix").subscribe(() => {
+        WA.room.area.onLeave("toHub").subscribe(() => {
             if (WA.player.state.currentQuest === "quest6") {
                 WA.player.state.currentQuest = "quest7";
             }

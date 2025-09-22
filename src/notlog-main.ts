@@ -91,7 +91,7 @@ WA.onInit().then(async () => {
     if (solvedNotlog === true && !isAdmin && mapURL.includes('notlog') && !mapURL.includes('localhost')) {
         console.log("Map URL: ", mapURL);
         // Teleport the player to the entry named "matrix-hub"
-        WA.nav.goToRoom("./matrix-hub.tmj");
+        WA.nav.goToRoom("./hub");
     }
 
     // Event listener for entering the notlog area
@@ -101,7 +101,7 @@ WA.onInit().then(async () => {
             console.log("Map URL: ", mapURL);
             if (!mapURL.includes('localhost')) {
                 // Teleport the player to the entry named "matrix-hub"
-                WA.nav.goToRoom("./matrix-hub.tmj");
+                WA.nav.goToRoom("./hub");
             }
         }
     });
